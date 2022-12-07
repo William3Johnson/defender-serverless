@@ -724,11 +724,6 @@ chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.0.1.tgz#ca57d71e82bb534a296df63bbacc4a1c22b2a4b6"
-  integrity sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==
-
 chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
@@ -1025,33 +1020,33 @@ defaults@^1.0.3:
   dependencies:
     clone "^1.0.2"
 
-defender-admin-client@^1.31.0-rc.2:
-  version "1.31.0-rc.2"
-  resolved "https://registry.yarnpkg.com/defender-admin-client/-/defender-admin-client-1.31.0-rc.2.tgz#71315fd9c4925e0839c21db8fc7eccc7779193e6"
-  integrity sha512-CPk8LQLuu9GH4WnqOwZvU76V1et1ZN9hO1xQj7NE5op5OE+TC/0KDkqqTgAie0idKNsksqp6iY44oJNFNu576A==
+defender-admin-client@^1.31.1:
+  version "1.37.0"
+  resolved "https://registry.yarnpkg.com/defender-admin-client/-/defender-admin-client-1.37.0.tgz#d4b6cc6c7ebaa9aab138f39b10572018c25dc9a1"
+  integrity sha512-0I0n+LUo4X75uiy/Sd5V5Qv1HwhmIvC++uswxx8xnQ0VUK+y0ic0uMk/8ACrItH/9EGH2YrURNm8ZGg9AY1K5A==
   dependencies:
     axios "^0.21.2"
-    defender-base-client "1.30.0"
+    defender-base-client "1.37.0"
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-defender-autotask-client@^1.31.0-rc.2:
-  version "1.31.0-rc.2"
-  resolved "https://registry.yarnpkg.com/defender-autotask-client/-/defender-autotask-client-1.31.0-rc.2.tgz#023b244152d931a7a2d9ab787bbdaa2c45c9a608"
-  integrity sha512-4Ogpq+IeqTRPJRW36oqWZ/0gJynpS7U7WxuBV1nNz4Db6COqws6aqQhZpqb17ItjSPztlE4qvgEX3ruK5mTSPw==
+defender-autotask-client@^1.31.1:
+  version "1.37.0"
+  resolved "https://registry.yarnpkg.com/defender-autotask-client/-/defender-autotask-client-1.37.0.tgz#3b59ac826e6d5df4fa3f706f36e09aad07e786d0"
+  integrity sha512-N66buqg7mgYiEMbN6R+/6tUB4gxp5Q9cu8QDFuDkviR32AxZ2jY7LqV+GkR/9dbRufQtb4ZRf+ihG/b01w5O5Q==
   dependencies:
     axios "^0.21.2"
-    defender-base-client "1.30.0"
+    defender-base-client "1.37.0"
     dotenv "^10.0.0"
     glob "^7.1.6"
     jszip "^3.5.0"
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-defender-base-client@1.30.0:
-  version "1.30.0"
-  resolved "https://registry.yarnpkg.com/defender-base-client/-/defender-base-client-1.30.0.tgz#dabe6efef2355f02e6fd9ef1acdd27c3d79b1377"
-  integrity sha512-Q1jo3kNhG9Z/jkkPhZds69pyWd3BEEej3ZdbBne3+nVxsRgLyEdtIBKfYFeliFz0vYnXqfgilRdCQ1MjSB3H4g==
+defender-base-client@1.37.0:
+  version "1.37.0"
+  resolved "https://registry.yarnpkg.com/defender-base-client/-/defender-base-client-1.37.0.tgz#22f63357ac99c2c8f64eab6e52c99ef113c62d3a"
+  integrity sha512-V6tU0q8/n1/m/edT2FlTvUmZn6u5/A64FqYQfrMgg4PEy1TvYCz9tF+3dnGjk+sJrzICAv0GQWwLw/+8uRq2mg==
   dependencies:
     amazon-cognito-identity-js "^4.3.3"
     async-retry "^1.3.3"
@@ -1059,38 +1054,37 @@ defender-base-client@1.30.0:
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-defender-relay-client@^1.31.0-rc.2:
-  version "1.31.0-rc.2"
-  resolved "https://registry.yarnpkg.com/defender-relay-client/-/defender-relay-client-1.31.0-rc.2.tgz#bf980bc35717c94eef69509986709b5f3674d7c8"
-  integrity sha512-DBUxhS3dIGfNsO0g/ztu8QM67PncZxMlQuB0xBpOuCe+cXyVGUlFe002hb6KAvp4sVlvyaZ6lxH9C7VMc+tF/w==
+defender-relay-client@^1.31.1:
+  version "1.37.0"
+  resolved "https://registry.yarnpkg.com/defender-relay-client/-/defender-relay-client-1.37.0.tgz#e6db1cccd8924b2e91e89635d88bf50099c28afc"
+  integrity sha512-c2V1AxPmnRC8Gj62cI2WQFJR4GECPoktbiGf/+l37Wxrnh38f4My/o6nZ/tqGkGt4kt8kzfmqciI2lNiUtlPDA==
   dependencies:
     amazon-cognito-identity-js "^4.3.3"
     axios "^0.21.2"
-    defender-base-client "1.30.0"
+    defender-base-client "1.37.0"
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-defender-sentinel-client@^1.31.0-rc.2:
-  version "1.31.0-rc.2"
-  resolved "https://registry.yarnpkg.com/defender-sentinel-client/-/defender-sentinel-client-1.31.0-rc.2.tgz#a8e4f83524db8f027ad3dbcd5f2fbc96dd693a1c"
-  integrity sha512-i0Qviy1YZqlQMzJin5s5uD7T5zbGGHGggN0hzQqJXv9FKUm2YHObDRegim18lwcw6CyzWPcEuVHgBInpjD6SQw==
+defender-sentinel-client@^1.31.1:
+  version "1.37.0"
+  resolved "https://registry.yarnpkg.com/defender-sentinel-client/-/defender-sentinel-client-1.37.0.tgz#d5ac68f76ce901e0c8773504ce69412057616a79"
+  integrity sha512-7OuZXrbnEXgq2EWHRdNOmRdhuKsQRLPOGhFmWSHu5HPBwLYFMkDWnEMJuzU8yBdJ12e1mAkA5ikNPrtGO9VHmw==
   dependencies:
     "@ethersproject/abi" "^5.6.3"
     axios "^0.21.2"
-    defender-base-client "1.30.0"
+    defender-base-client "1.37.0"
     lodash "^4.17.19"
     node-fetch "^2.6.0"
 
-defender-serverless@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/defender-serverless/-/defender-serverless-1.0.1.tgz#b6f3335935e3685fd2a032a26d7ff09489361309"
-  integrity sha512-UGf3kXIWu39bDTE/qfLmgYEpRgQE4fLxMs1uZqtrTxYj3qF7eDvq6y9/0OBuTjh+lfcsq08LKPKK2l0dmmqCKg==
+defender-serverless@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/defender-serverless/-/defender-serverless-1.0.3.tgz#8ea88003a06d9248e92857d33fe6d1a224d9748f"
+  integrity sha512-P9Td0LIwyOjbpCerFggM2SiN6A9QCfiLvaSalbjIQr6o5sZRzbZvwWwHyLUoKYpdsY5bzqA7exO5hkF8CexqmA==
   dependencies:
-    chalk "^5.0.1"
-    defender-admin-client "^1.31.0-rc.2"
-    defender-autotask-client "^1.31.0-rc.2"
-    defender-relay-client "^1.31.0-rc.2"
-    defender-sentinel-client "^1.31.0-rc.2"
+    defender-admin-client "^1.31.1"
+    defender-autotask-client "^1.31.1"
+    defender-relay-client "^1.31.1"
+    defender-sentinel-client "^1.31.1"
     lodash "^4.17.21"
     prompt "^1.3.0"
 
@@ -2933,9 +2927,9 @@ signal-exit@^3.0.2, signal-exit@^3.0.7:
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
 simple-git@^3.7.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.14.0.tgz#6b98b445635ea778e8af9baa299dca71ede896ec"
-  integrity sha512-Paad1BkrI7vWhImLybDRYOHnh3WPsHSKXJpmKM+iGjjKNV91XaOdd+yIdZ/gqdzncHDEKYff4k+74oNo1R+U8Q==
+  version "3.15.1"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.15.1.tgz#57f595682cb0c2475d5056da078a05c8715a25ef"
+  integrity sha512-73MVa5984t/JP4JcQt0oZlKGr42ROYWC3BcUZfuHtT3IHKPspIvL0cZBnvPXF7LL3S/qVeVHVdYYmJ3LOTw4Rg==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
